@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikasa VS Titans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loadingPage">
+        <img src="images/welcome1.jpg" alt="">
+        <h1 class='load'>MIKASA VS TITANS</h1>
+        <h2>Mikasa needs help to protect the wall <br>  against the terrifying Titans !</h2>
+        <p>Arrow left --> you go left <br> Arrow right --> you go right <br> Space --> you launch sword <br> Arrow up & down --> melee attack
+        </p>
+        <input id="startButton" type="button" value="START"/>
+    </div>
+    <div id ="gameOver">
+        <img src="images/game2.jpg" alt="">
+        <h1 class="game">GAME OVER</h1>
+        <h2>Mikasa was eaten by the Titans !</h1>
+        <h3 id="total-kill">You kill  <span>0</span> Titans</h3>
+
+        <input id="restartBtn" type="button" value="TRY AGAIN ?">
+    </div>
+    <canvas id="gamePage" width="500" height="750"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

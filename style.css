@@ -1,0 +1,132 @@
+body {
+    width: 600px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#loadingPage {
+    height: 750px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+img {
+    position: absolute;
+}
+
+#startButton {
+    color: black;
+    background-color: transparent; border: 0; 
+    text-shadow: 6px 4px 2px rgba(102,18,18,0.5);
+    font-family: Verdana red;
+    font-size: 50px;
+    height: 80px;
+    width: 190px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 155px;
+}
+
+.load {
+    color: #8a2020;
+    font-size: 50px;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: Verdana red;
+    text-shadow: 6px 4px 2px rgba(0,0,0,0.3);
+    background: linear-gradient(to right, #8a2020, #000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-family: Verdana red;
+    font-size: 25px;
+    color: #8a2020;
+
+    
+}
+
+
+p {
+    position: relative;
+    padding-top: 350px;
+    font-family: Verdana red;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e0d6d1;
+    text-shadow: 4px 4px 8px rgba(0,0,0,1);
+}
+
+
+
+#gameOver {
+    height: 750px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+#gameOver img {
+    position: absolute;
+}
+
+#restartBtn {
+    color: black;
+    background-color: transparent; border: 0; 
+    text-shadow: 6px 4px 2px rgba(102,18,18,0.5);
+    font-family: Verdana red;
+    font-size: 50px;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    font-weight: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 105px;
+}
+
+#gameOver h2 {
+    position: relative;
+    text-align: center;
+    font-family: Verdana red;
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: white;
+    text-shadow: 4px 12px 8px rgba(0,0,0,0.6);
+    background: linear-gradient(to right,rgb(238, 189, 85), #c71700 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+#gameOver h3 {
+    position: relative;
+    text-align: center;
+    font-family: Verdana red;
+    font-size: 65px;
+    margin-bottom: 100px;
+    color: rgb(240, 12, 12);
+    background: linear-gradient(to bottom,rgb(240, 12, 12), #691307 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    text-shadow: 2px 4px 2px rgba(0,0,0,0.2);
+}
+
+.game {
+    color: white;
+    font-size: 70px;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-family: Verdana red;
+    text-shadow: 6px 4px 2px rgba(0,0,0,0.3);
+    background: linear-gradient(to right,rgb(240, 168, 12), #fa0b0b );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
